@@ -7,7 +7,7 @@ const PREFIX = "="
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
-  bot.user.setGame(`Recording In Hcf Making Factions Raidable!`,'https://twitch.tv/123silly');
+  bot.user.setGame(`Hcf [Medium] Making Factions Raidable!`,'https://twitch.tv/123silly');
     console.log(`Started bot as: ${bot.user.tag}!`);
 });
 
@@ -81,16 +81,16 @@ bot.on("message", function(message) {
             .setTitle("Music Commands")
             .setDescription(':robot: Here are music commands you can use: :robot:')
             .setThumbnail ('https://ak4.picdn.net/shutterstock/videos/10035044/thumb/1.jpg')
-            .addField(`-play [URL/TITLE/PLAYLIST]`, `Plays good quality music :wink:`)
-            .addField(`-stop`, `Stops playing music and clears queue.`)
-            .addField(`-volume [0 - 150]`, `Sets volume of music.`)
-            .addField(`-skipto [number of song in queue]`, `Skips the queue to song what you wrote.`)
-            .addField(`-pause`, `Pauses current song.`)
-            .addField(`-forceskip`, `Force skips the song`)
-            .addField(`-remove [ALL/Position]`, `Removes the song or other.`)
-            .addField(`-nowplaying`, `You can now see whats playing.`)
-            .addField(`-queue`, `Queue of the songs in your server.`)
-            .addField(`-shuffle`, `Shuffles songs you have added.`)
+            .addField(`=play [URL/TITLE/PLAYLIST]`, `Plays good quality music :wink:`)
+            .addField(`=stop`, `Stops playing music and clears queue.`)
+            .addField(`=volume [0 - 150]`, `Sets volume of music.`)
+            .addField(`=skipto [number of song in queue]`, `Skips the queue to song what you wrote.`)
+            .addField(`=pause`, `Pauses current song.`)
+            .addField(`=forceskip`, `Force skips the song`)
+            .addField(`=remove [ALL/Position]`, `Removes the song or other.`)
+            .addField(`=nowplaying`, `You can now see whats playing.`)
+            .addField(`=queue`, `Queue of the songs in your server.`)
+            .addField(`=shuffle`, `Shuffles songs you have added.`)
             .setFooter("")
             .setColor(0x1ab517)
             message.author.sendEmbed(embedt)
@@ -102,11 +102,11 @@ bot.on("message", function(message) {
            .addField(`=afk`, `Makes you afk so no one disturbs you!`)
            .addField(`=unafk`, `Makes You No Longer afk.`)
            .addField(`=cutecat`, `Sends a cute cat.`)
-           .addField(`=hello`, `Says hello to LightBlue / Responses: -good -bad -sad`)
+           .addField(`=hello`, `Says hello to Zoid / Responses: -good -bad -sad`)
            .addField(`=userinfo`, `Tells some information about you.`)
            .addField(`=pm [text]`, `PMs you the text you wrote | **FEATURE GLITCHED OUT!!**`)
            .addField(`=ping`, `Says Pong!`)
-           .addField(`=8ball [Question]`, `You ask a question and LightBlue randomly answers!`)
+           .addField(`=8ball [Question]`, `You ask a question and Zoid randomly answers!`)
            .setFooter("")
            .setColor(0xf44141)
            message.author.sendEmbed(embedth)
@@ -149,13 +149,13 @@ message.delete("reloadthebot")
 console.log(`<@${message.author.id}> has reloaded LightBlue!`);
 message.author.sendMessage("**Reload** -> To confirm please type -kill");
 break;
-         case "hello":
-             message.delete("hello")
-             message.channel.sendMessage("Hello! How are you?");
+         case "servers":
+             message.delete("servers")
+             message.channel.sendMessage("Join Riskii's Server:https://discord.gg/WnWdRc6 And https://discord.gg/EFh3q54");
             break;
-            case "good":
-                message.delete("good")
-                message.channel.sendMessage("I am good too :D");
+            case "invite":
+                message.delete("invite")
+                message.channel.sendMessage("**Invite Here:**https://discordapp.com/api/oauth2/authorize?client_id=400360484697538570&permissions=8&scope=bot");
                break;
                case "bad":
                    message.delete("bad")
@@ -165,7 +165,7 @@ break;
                       message.delete("sad")
                       message.channel.sendMessage("Why sad? ;n;");
                      break;
-               case "invite":
+               case "hgg":
                    message.delete("invite")
                    console.log(`[SPY] Ohh yea! <@${message.author.id}> wants to invite me! :wink:`);
                    message.channel.sendMessage("You can invite me here: https://discordapp.com/api/oauth2/authorize?client_id=400360484697538570&permissions=8&scope=bot");
