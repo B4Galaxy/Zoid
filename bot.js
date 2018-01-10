@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 
-const TOKEN =  "NDAwMzYwNDg0Njk3NTM4NTcw.DTbiMA.NvnJbeDxQ8HXmQaMidq2nwaXEW8"
+const TOKEN =  "FUCKING ASSHOLE NIGGER DON'T COPY MY ASSHOLE CODE AND DELETE A WHOLE SERVER FUCK U U CAN'T GET IT ANYMORE"
 const PREFIX = "="
 
 var bot = new Discord.Client();
