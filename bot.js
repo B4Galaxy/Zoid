@@ -7,7 +7,7 @@ const PREFIX = "="
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
-  bot.user.setGame(`-help | v2 | ${bot.guilds.size} servers! WOW`,'https://twitch.tv/123silly');
+  bot.user.setGame(`Recording In Hcf Making Factions Raidable!'https://twitch.tv/123silly`);
     console.log(`Started bot as: ${bot.user.tag}!`);
 });
 
