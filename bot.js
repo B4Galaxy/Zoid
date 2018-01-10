@@ -126,7 +126,7 @@ bot.on("message", function(message) {
            .addField(`=chilledwindows`, `Plays a windows error sounds music!`)
            .addField(`=airhorn`, `Plays little eisteins airhorn remix!`)
            .addField(`=brainpower`, `Plays whole song of Brain Power!`)
-           .addField('=fakeping`, `Sends a discord notification`)
+           .addField(`=fakeping`, `Sends a discord notification`)
            .addField(`=win`, `Plays a winner epic song!`)
            .setFooter("Made by Riskii | Zoid")
            .setColor(0xad0505)
