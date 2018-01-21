@@ -8,7 +8,7 @@ var guilds = {};
  
  
 bot.on("ready", function() {
-      bot.user.setGame("Medium Faction [VeltPvP] Prefix= . "https://www.twitch.tv/123silly");
+      bot.user.setGame("Medium Faction [VeltPvP] Prefix= ." "https://www.twitch.tv/123silly");
     console.log(`Started bot as: ${bot.user.tag}!`);
 });
  
