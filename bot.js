@@ -2,13 +2,13 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const weather = require('weather-js');
  
-var token = "NDAwMzYwNDg0Njk3NTM4NTcw.DUaL1g.KX4rbjSFlEYygflD7th2XYKkVIU";
+var token = "NOPE";
  
 var guilds = {};
  
  
 bot.on("ready", function() {
-      bot.user.setGame("Medium Faction [VeltPvP] Prefix= ." "https://www.twitch.tv/123silly");
+      bot.user.setGame("Velt Medium [VeltPvP]" , "https://www.twitch.tv/123silly");
     console.log(`Started bot as: ${bot.user.tag}!`);
 });
  
